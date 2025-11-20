@@ -38,16 +38,19 @@
 
 #### S&P
 
-- SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem [pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-145-paper.pdf)
 - Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search and Dataflow-aided Payload Construction [pdf](https://ieeexplore.ieee.org/abstract/document/10646692)
 
 #### NDSS
 
-- SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem [pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-145-paper.pdf)
+- SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem [pdf]([https://www.ndss-symposium.org/wp-content/uploads/2024-145-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-926-paper.pdf))
 
 #### USENIX Security
 
 - Practical Data-Only Attack Generation [pdf](https://www.usenix.org/system/files/usenixsecurity24-johannesmeyer.pdf)
+
+#### ICSE
+
+- Exploiting Library Vulnerability via Migration Based Automating Test Generation [pdf]([https://ieeexplore.ieee.org/document/9402015](https://dl.acm.org/doi/10.1145/3597503.3639583))
 
 ### 2023
 
@@ -80,9 +83,6 @@
 
 - OCTOPOCS: Automatic Verification of Propagated Vulnerable Code Using Reformed Proofs of Concept [pdf](https://ieeexplore.ieee.org/document/9593393)
 
-#### TIFS
-
-- Exploiting Library Vulnerability via Migration Based Automating Test Generation [pdf](https://ieeexplore.ieee.org/document/9402015)
 
 #### ICSE
 
@@ -232,8 +232,8 @@ Applications of PoC exploits in vulnerability assessment, exploit prediction, mi
 - PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts [pdf](https://arxiv.org/abs/2511.02780)
 - A Systematic Study on Generating Web Vulnerability Proof-of-Concepts Using Large Language Models [pdf](https://arxiv.org/abs/2510.10148)
 - Real-World Usability of Vulnerability Proof-of-Concepts: A Comprehensive Study [pdf](https://arxiv.org/pdf/2510.1844)
-- PoCGen
-
+- PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in NPM Packages [pdf](https://arxiv.org/pdf/2506.04962v3)
+- Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities [pdf](https://arxiv.org/pdf/2511.12950)
 ---
 
 
