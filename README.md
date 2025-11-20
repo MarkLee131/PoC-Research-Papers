@@ -7,7 +7,7 @@
 
 ## Contents
 
-[2024](#2024) | [2023](#2023) | [2022](#2022) | [2021](#2021) | [2020](#2020) | [2019](#2019) | [2018](#2018) | [2017](#2017) | [2016 and Before](#2016-and-before)
+[2025](#2025) | [2024](#2024) | [2023](#2023) | [2022](#2022) | [2021](#2021) | [2020](#2020) | [2019](#2019) | [2018](#2018) | [2017](#2017) | [2016 and Before](#2016-and-before)
 
 [PoC Analysis and Empirical Studies](#poc-analysis-and-empirical-studies) | [PoC Generation](#poc-generation) | [PoC Applications](#poc-applications)
 
@@ -15,65 +15,135 @@
 
 ## All Papers
 
+### 2025
+
+#### NDSS
+
+- NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities [pdf](https://www.ndss-symposium.org/wp-content/uploads/2025-1636-paper.pdf)
+
+#### PLDI
+
+- Automated Exploit Generation for Node.js Packages [pdf](https://www.andrew.cmu.edu/user/liminjia/research/papers/explodejs-pldi25.pdf)
+
+#### TIFS
+
+- PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts [pdf](https://arxiv.org/abs/2511.02780)
+
 ### 2024
 
-* **S&P**
-  * Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search
+#### S&P
+
+- SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem [pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-145-paper.pdf)
+- Practical Data-Only Attack Generation [pdf](https://www.usenix.org/system/files/usenixsecurity24-johannesmeyer.pdf)
+
+#### NDSS
+
+- SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem [pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-145-paper.pdf)
+
+#### USENIX Security
+
+- Practical Data-Only Attack Generation [pdf](https://www.usenix.org/system/files/usenixsecurity24-johannesmeyer.pdf)
 
 ### 2023
 
-* **S&P**
-  * ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing
-* **ISSTA**
-  * 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing
+#### S&P
+
+- ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing [pdf](https://arxiv.org/abs/2304.04233)
+
+#### ISSTA
+
+- 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing [pdf](https://dl.acm.org/doi/10.1145/3597926.359810)
+
+#### NDSS
+
+- BAGUA: Towards Automatic and Precise Heap Layout Manipulation for General-Purpose Programs [pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-232-paper.pdf)
 
 ### 2022
 
-* **CCS**
-  * Evocatio: Conjuring Bug Capabilities from a Single PoC
-* **USENIX Security**
-  * Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits
+#### CCS
+
+- Evocatio: Conjuring Bug Capabilities from a Single PoC [pdf](https://dl.acm.org/doi/10.1145/3548606.3560615)
+
+#### USENIX Security
+
+- Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits [pdf](https://www.usenix.org/system/files/sec22summer_suciu.pdf)
+- SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux Kernel [pdf](https://www.usenix.org/system/files/sec22summer_wang.pdf)
 
 ### 2021
 
-* **CCS**
-  * VulScope: Facilitating Vulnerability Assessment through PoC Migration
-* **DSN**
-  * OCTOPOCS: Automatic Verification of Propagated Vulnerable Code Using Reformed Proofs of Concept
-* **ICSE**
-  * Exploiting Library Vulnerability via Migration Based Automating Test Generation
-* **ISSTA**
-  * RAProducer: Efficiently Diagnose and Reproduce Data Race Bugs for Binaries via Trace Analysis
-* **ICPC**
-  * Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries
+#### TDSC
+
+- OCTOPOCS: Automatic Verification of Propagated Vulnerable Code Using Reformed Proofs of Concept [pdf](https://ieeexplore.ieee.org/document/9593393)
+
+#### TIFS
+
+- Exploiting Library Vulnerability via Migration Based Automating Test Generation [pdf](https://ieeexplore.ieee.org/document/9402015)
+
+#### ICSE
+
+- RAProducer: Efficiently Diagnose and Reproduce Data Race Bugs for Binaries via Trace Analysis [pdf](https://dl.acm.org/doi/10.1145/3460319.3464812)
+
+#### TSE
+
+- Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries [pdf](https://ieeexplore.ieee.org/document/9432271)
 
 ### 2020
 
-* **USENIX Security**
-  * KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities
+#### USENIX Security
+
+- MAZE: Towards Automated Heap Feng Shui [pdf](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-yan)
+- KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity20/presentation/chen)
+
+#### CCS
+
+- Gollum: Modular and Greybox Exploit Generation for Heap Overflows in Interpreters [pdf](https://dl.acm.org/doi/10.1145/3319535.3363224)
+- SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel [pdf](https://dl.acm.org/doi/10.1145/3319535.3363192)
+
+### 2019
+
+#### USENIX Security
+
+- KEPLER: Facilitating Control-Flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei)
 
 ### 2018
 
-* **CCS**
-  * Revery: From Proof-of-Concept to Exploitable
-* **USENIX Security**
-  * Understanding the Reproducibility of Crowd-reported Security Vulnerabilities
-  * NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications
-  * FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities
+#### CCS
+
+- Revery: From Proof-of-Concept to Exploitable [pdf](https://dl.acm.org/doi/10.1145/3243734.3243824)
+
+#### USENIX Security
+
+- Understanding the Reproducibility of Crowd-Reported Security Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/kuznetsov)
+- NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/liu)
+- FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/isaac)
 
 ### 2017
 
-* **CCS**
-  * SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits
+#### CCS
+
+- SemFuzz: Semantics-Based Automatic Generation of Proof-of-Concept Exploits [pdf](https://dl.acm.org/doi/10.1145/3133956.3134019)
+
+#### FSE
+
+- Detecting Missing Information in Bug Descriptions [pdf](https://dl.acm.org/doi/10.1145/3106237.3106265)
 
 ### 2016 and Before
 
-* **SIGKDD '10**
-  * Beyond heuristics: learning to classify vulnerabilities and predict exploits
-* **S&P '08**
-  * Automatic Patch-Based Exploit Generation is Possible: Techniques and Implications
-* **FSE '08**
-  * What makes a good bug report?
+#### SIGKDD '10
+
+- Beyond Heuristics: Learning to Classify Vulnerabilities and Predict Exploits [pdf](https://dl.acm.org/doi/10.1145/1835804.1835860)
+
+#### NDSS '11
+
+- AEG: Automatic Exploit Generation [pdf](https://www.ndss-symposium.org/wp-content/uploads/2017/09/Avg.pdf)
+
+#### S&P '08
+
+- Automatic Patch-Based Exploit Generation is Possible: Techniques and Implications [pdf](https://ieeexplore.ieee.org/document/4531148)
+
+#### FSE '08
+
+- What Makes a Good Bug Report? [pdf](https://dl.acm.org/doi/10.1145/1453101.1453146)
 
 ---
 
@@ -110,8 +180,19 @@ Automated techniques for generating proof-of-concept exploits using fuzzing, sym
 * Automatic Patch-Based Exploit Generation is Possible: Techniques and Implications (S&P '08)
 * FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities (USENIX Security '18)
 * NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications (USENIX Security '18)
+* BAGUA: Towards Automatic and Precise Heap Layout Manipulation for General-Purpose Programs (NDSS '23)
+* MAZE: Towards Automated Heap Feng Shui (USENIX Security '20)
 * KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities (USENIX Security '20)
+* Gollum: Modular and Greybox Exploit Generation for Heap Overflows in Interpreters (CCS '20)
+* SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel (CCS '20)
 * Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries (ICPC '21)
+
+#### Program Analysis and Automation
+
+* NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities (NDSS '25)
+* Automated Exploit Generation for Node.js Packages (PLDI '25)
+* Practical Data-Only Attack Generation (USENIX Security '24)
+* PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts (TIFS '25)
 
 ---
 
@@ -124,6 +205,9 @@ Applications of PoC exploits in vulnerability assessment, exploit prediction, mi
 * Beyond heuristics: learning to classify vulnerabilities and predict exploits (SIGKDD '10)
 * Revery: From Proof-of-Concept to Exploitable (CCS '18)
 * Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits (USENIX Security '22)
+* SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem (S&P/NDSS '24)
+* SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux Kernel (USENIX Security '22)
+* KEPLER: Facilitating Control-Flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities (USENIX Security '19)
 
 #### PoC Migration and Transformation
 
