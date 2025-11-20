@@ -88,21 +88,16 @@
 
 - RAProducer: Efficiently Diagnose and Reproduce Data Race Bugs for Binaries via Trace Analysis [pdf](https://dl.acm.org/doi/10.1145/3460319.3464812)
 
-#### TSE
+#### ICPC
 
-- Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries [pdf](https://ieeexplore.ieee.org/document/9432271)
+- Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries [pdf](https://ieeexplore.ieee.org/document/9462983)
 
 ### 2020
 
 #### USENIX Security
 
 - MAZE: Towards Automated Heap Feng Shui [pdf](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-yan)
-- KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity20/presentation/chen)
-
-#### CCS
-
-- Gollum: Modular and Greybox Exploit Generation for Heap Overflows in Interpreters [pdf](https://dl.acm.org/doi/10.1145/3319535.3363224)
-- SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel [pdf](https://dl.acm.org/doi/10.1145/3319535.3363192)
+- KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities [pdf](https://www.usenix.org/system/files/sec20-chen-weiteng.pdf)
 
 ### 2019
 
@@ -110,17 +105,23 @@
 
 - KEPLER: Facilitating Control-Flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei)
 
+#### CCS
+
+- Gollum: Modular and Greybox Exploit Generation for Heap Overflows in Interpreters [pdf](https://dl.acm.org/doi/10.1145/3319535.3354224)
+- SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel [pdf](https://dl.acm.org/doi/10.1145/3319535.3363212)
+
+
 ### 2018
 
 #### CCS
 
-- Revery: From Proof-of-Concept to Exploitable [pdf](https://dl.acm.org/doi/10.1145/3243734.3243824)
+- Revery: From Proof-of-Concept to Exploitable [pdf](https://dl.acm.org/doi/10.1145/3243734.3243847)
 
 #### USENIX Security
 
-- Understanding the Reproducibility of Crowd-Reported Security Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/kuznetsov)
-- NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/liu)
-- FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities [pdf](https://www.usenix.org/conference/usenixsecurity18/presentation/isaac)
+- Understanding the Reproducibility of Crowd-Reported Security Vulnerabilities [pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-mu.pdf)
+- NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications [pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-alhuzali.pdf)
+- FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities [pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wu_0.pdf)
 
 ### 2017
 
