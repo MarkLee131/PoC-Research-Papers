@@ -127,17 +127,13 @@
 
 #### CCS
 
-- SemFuzz: Semantics-Based Automatic Generation of Proof-of-Concept Exploits [pdf](https://dl.acm.org/doi/10.1145/3133956.3134019)
-
-#### FSE
-
-- Detecting Missing Information in Bug Descriptions [pdf](https://dl.acm.org/doi/10.1145/3106237.3106265)
+- SemFuzz: Semantics-Based Automatic Generation of Proof-of-Concept Exploits [pdf](https://dl.acm.org/doi/10.1145/3133956.3134085)
 
 ### 2016 and Before
 
 #### SIGKDD '10
 
-- Beyond Heuristics: Learning to Classify Vulnerabilities and Predict Exploits [pdf](https://dl.acm.org/doi/10.1145/1835804.1835860)
+- Beyond Heuristics: Learning to Classify Vulnerabilities and Predict Exploits [pdf](https://dl.acm.org/doi/10.1145/1835804.1835821)
 
 #### NDSS '11
 
@@ -145,11 +141,7 @@
 
 #### S&P '08
 
-- Automatic Patch-Based Exploit Generation is Possible: Techniques and Implications [pdf](https://ieeexplore.ieee.org/document/4531148)
-
-#### FSE '08
-
-- What Makes a Good Bug Report? [pdf](https://dl.acm.org/doi/10.1145/1453101.1453146)
+- Automatic Patch-Based Exploit Generation is Possible: Techniques and Implications [pdf](https://ieeexplore.ieee.org/document/4531150)
 
 ---
 
@@ -158,11 +150,6 @@
 ### PoC Analysis and Empirical Studies
 
 Empirical studies, surveys, and measurements analyzing PoC exploits, bug reports, and vulnerability characteristics.
-
-#### Bug Report Quality
-
-* What makes a good bug report? (FSE '08) [pdf](https://dl.acm.org/doi/10.1145/1453101.1453146)
-* Detecting Missing Information in Bug Descriptions (FSE '17) [pdf](https://dl.acm.org/doi/10.1145/3106237.3106265)
 
 #### Exploit Reproducibility
 
