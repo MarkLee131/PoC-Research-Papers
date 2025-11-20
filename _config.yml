@@ -2,17 +2,17 @@
 
 # Theme
 theme: jekyll-theme-cayman
-title: "PoC Research Papers"
+title: "PoC Research"
 description: "A curated collection of academic research papers on Proof-of-Concept exploits"
 
 # SEO
 lang: en-US
-author: "PoC Research Community"
+author: "Kaixuan Li"
 
 # GitHub metadata
 github:
   is_project_page: true
-  repository_name: "PoCResearches"
+  repository_name: "PoCResearchPapers"
   
 # Enable plugins
 plugins:
@@ -28,13 +28,9 @@ kramdown:
 # File handling
 include:
   - README.md
-  - CONTRIBUTING.md
 
 # Exclude from processing
 exclude:
   - .gitignore
-  - analysis/
-  - generation/
-  - applications/
   - LICENSE
 
