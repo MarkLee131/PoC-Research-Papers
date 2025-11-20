@@ -1,0 +1,73 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+.cache/
+
+# Python (if using any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Node.js (if using any tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# LaTeX (if generating documentation)
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Notes and drafts (optional - remove if you want to track these)
+notes.txt
+draft.md
+TODO.txt
+
+# Ignore slides/presentations if they're large (optional)
+# *.pptx
+# *.ppt
+
+# Ignore personal notes or annotations
+*_notes.md
+*_draft.md
+

@@ -1,0 +1,40 @@
+# GitHub Pages configuration for PoC Research Papers
+
+# Theme
+theme: jekyll-theme-cayman
+title: "PoC Research Papers"
+description: "A curated collection of academic research papers on Proof-of-Concept exploits"
+
+# SEO
+lang: en-US
+author: "PoC Research Community"
+
+# GitHub metadata
+github:
+  is_project_page: true
+  repository_name: "PoCResearches"
+  
+# Enable plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# File handling
+include:
+  - README.md
+  - CONTRIBUTING.md
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - analysis/
+  - generation/
+  - applications/
+  - LICENSE
+
