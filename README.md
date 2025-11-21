@@ -1,6 +1,6 @@
 # Proof-of-Concept (PoC) Research Papers
 
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](LICENSE)
 
 > Recent papers related to Proof-of-Concept (PoC) including exploit generation, empirical analysis, and applications. Feel free to make contributions to this repository (e.g., adding new papers) by creating pull requests.
