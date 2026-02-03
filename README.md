@@ -26,7 +26,7 @@
 - Automated Exploit Generation for Node.js Packages [pdf](https://www.andrew.cmu.edu/user/liminjia/research/papers/explodejs-pldi25.pdf)
 
 #### ASE
-- Learning from the Past: Real-World Exploit Migration for Smart Contract PoC Generation
+- Learning from the Past: Real-World Exploit Migration for Smart Contract PoC Generation [pdf](https://kaixuanli-ecnu.github.io/papers/ASE25_PoCShift.pdf)
 - DeepExploitor: LLM-Enhanced Automated Exploitation of DeepLink Attack in Hybrid Apps
 
 #### USENIX Security
