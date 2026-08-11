@@ -8,6 +8,13 @@
 (function () {
   'use strict';
 
+  var SITE = {
+    repo: 'https://github.com/MarkLee131/PoC-Research-Papers',
+    pulls: 'https://github.com/MarkLee131/PoC-Research-Papers/pulls',
+    author: 'Kaixuan Li',
+    authorUrl: 'https://kaixuanli-ecnu.github.io/'
+  };
+
   var md = document.getElementById('md');
   if (!md) return;
 
@@ -370,6 +377,14 @@
       : 'Papers on proof-of-concept exploits: generation, empirical analysis, and applications.';
     head.appendChild(lede);
 
+    var by = el('p', 'byline');
+    by.appendChild(document.createTextNode('Maintained by '));
+    var who = el('a', '', SITE.author);
+    who.href = SITE.authorUrl;
+    who.rel = 'noopener';
+    by.appendChild(who);
+    head.appendChild(by);
+
     var badges = lead.nodes.filter(function (n) { return n.querySelector && n.querySelector('img'); });
     if (badges.length) {
       var box = el('p', 'badges');
@@ -443,11 +458,15 @@
     body.appendChild(sp);
 
     var foot = el('div', 'rail-foot');
+    var home = el('a', '', SITE.author + '’s homepage');
+    home.href = SITE.authorUrl;
+    home.rel = 'noopener';
+    foot.appendChild(home);
     var repo = el('a', '', 'Repository on GitHub');
-    repo.href = 'https://github.com/MarkLee131/PoC-Research-Papers';
+    repo.href = SITE.repo;
     foot.appendChild(repo);
     var add = el('a', '', 'Add a paper');
-    add.href = 'https://github.com/MarkLee131/PoC-Research-Papers/pulls';
+    add.href = SITE.pulls;
     foot.appendChild(add);
     var theme = el('button', 'theme', 'Switch to dark');
     theme.type = 'button';

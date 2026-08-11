@@ -168,6 +168,22 @@ a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3
   color: var(--ink);
 }
 
+.byline {
+  font-family: var(--f-mono);
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 1.25rem 0 0;
+}
+.byline a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--stamp);
+  padding-bottom: .1rem;
+}
+.byline a:hover { color: var(--stamp); }
+
 .badges { margin: 1.5rem 0 0; display: flex; gap: .5rem; flex-wrap: wrap; }
 .badges img { height: 20px; display: block; }
 
