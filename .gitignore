@@ -71,3 +71,8 @@ TODO.txt
 *_notes.md
 *_draft.md
 
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata

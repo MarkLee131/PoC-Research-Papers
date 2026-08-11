@@ -1,7 +1,5 @@
 # GitHub Pages configuration for PoC Research Papers
 
-# Theme
-theme: jekyll-theme-cayman
 title: "PoC Research Papers"
 description: "A curated collection of academic research papers on Proof-of-Concept exploits"
 url: "https://marklee131.github.io"
@@ -15,11 +13,20 @@ author: "Kaixuan Li"
 github:
   is_project_page: true
   repository_name: "PoC-Research-Papers"
-  
-# Enable plugins
+
+# Plugins
 plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-seo-tag
+
+# README.md has no front matter, so give every page the ledger layout explicitly.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Markdown settings
 markdown: kramdown
@@ -27,12 +34,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# File handling
-include:
-  - README.md
 
 # Exclude from processing
 exclude:
   - .gitignore
   - LICENSE
-
