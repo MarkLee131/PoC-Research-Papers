@@ -36,7 +36,7 @@
 #### ICSE
 
 - Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities [pdf](https://arxiv.org/pdf/2511.12950)
-- SymRadar: PoC-Centered Bounded Verification for Vulnerability Repair
+- SymRadar: PoC-Centered Bounded Verification for Vulnerability Repair [doi](https://dl.acm.org/doi/10.1145/3744916.3787825)
 - Do Automated Fixes Truly Mitigate Smart Contract Exploits? (Journal-first) [pdf](https://arxiv.org/abs/2501.04600)
 - Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits (Distinguished Paper Award)
 
@@ -44,20 +44,20 @@
 
 - PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in NPM Packages [pdf](https://arxiv.org/pdf/2506.04962)
 - V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution [pdf](https://arxiv.org/abs/2604.13611)
-- ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents
-- It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation
+- ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents [doi](https://dl.acm.org/doi/10.1145/3808157)
+- It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation [doi](https://dl.acm.org/doi/10.1145/3808105)
 
 #### ISSTA
 
 - PAGENT: Program Analysis Guided LLM Agent for Proof-of-Concept Generation [pdf](https://arxiv.org/abs/2604.07624)
-- PoCE: Automated Proof-of-Concept Synthesis using Large Language Models for Robust Validation
+- PoCE: Automated Proof-of-Concept Synthesis using Large Language Models for Robust Validation [doi](https://dl.acm.org/doi/10.1145/3832134)
 - Exploiting Ethereum Rollback Semantics: Profit-Driven Attack Synthesis and Off-Chain Misinterpretation Testing
 
 #### ASE
 
 - Trace-Driven Automated PoC Synthesis for On-Chain Attacks [pdf](https://arxiv.org/abs/2601.16681)
 - SmartPoC: Validating Smart Contract Vulnerability Findings through PoC Generation and Execution [pdf](https://arxiv.org/abs/2511.12993)
-- IntOAgent: A Practical Framework for Automated Detection and Triggering of Integer Overflow Vulnerabilities
+- IntOAgent: A Practical Framework for Automated Detection and Triggering of Integer Overflow Vulnerabilities [doi](https://dl.acm.org/doi/10.1145/3832783.3834336)
 - Assessing the Cross-Version Applicability of Java Library Vulnerability Exploits [pdf](https://arxiv.org/abs/2603.25997)
 
 #### TOSEM
@@ -110,7 +110,7 @@
 
 #### ISSTA
 
-- 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing [doi](https://dl.acm.org/doi/10.1145/3597926.3598108)
+- 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing [doi](https://dl.acm.org/doi/10.1145/3597926.3598102)
 
 #### NDSS
 
@@ -227,11 +227,11 @@ Automated techniques for generating proof-of-concept exploits using fuzzing, sym
 
 * SemFuzz: Semantics-Based Automatic Generation of Proof-of-Concept Exploits (CCS '17) [pdf](https://dl.acm.org/doi/10.1145/3133956.3134085)
 * ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing (S&P '23) [pdf](https://arxiv.org/abs/2304.04233)
-* 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing (ISSTA '23) [doi](https://dl.acm.org/doi/10.1145/3597926.3598108)
+* 1dFuzz: Reproduce 1-Day Vulnerabilities with Directed Differential Fuzzing (ISSTA '23) [doi](https://dl.acm.org/doi/10.1145/3597926.3598102)
 * Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search (S&P '24) [pdf](https://yinzhicao.org/JavaDeserialization/JavaDeserialization-Oakland.pdf)
-* It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation (FSE '26)
+* It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation (FSE '26) [doi](https://dl.acm.org/doi/10.1145/3808105)
 * PUFFERDOS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities (S&P '26) [pdf](https://arxiv.org/abs/2606.19654)
-* ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents (FSE '26)
+* ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents (FSE '26) [doi](https://dl.acm.org/doi/10.1145/3808157)
 * Contextualizing Sink Knowledge for Java Vulnerability Discovery (S&P '26) [pdf](https://arxiv.org/abs/2604.01645)
 
 #### Symbolic Execution and Constraint Solving
@@ -249,10 +249,10 @@ Automated techniques for generating proof-of-concept exploits using fuzzing, sym
 
 * PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in NPM Packages (FSE '26) [pdf](https://arxiv.org/pdf/2506.04962)
 * PAGENT: Program Analysis Guided LLM Agent for Proof-of-Concept Generation (ISSTA '26) [pdf](https://arxiv.org/abs/2604.07624)
-* PoCE: Automated Proof-of-Concept Synthesis using Large Language Models for Robust Validation (ISSTA '26)
+* PoCE: Automated Proof-of-Concept Synthesis using Large Language Models for Robust Validation (ISSTA '26) [doi](https://dl.acm.org/doi/10.1145/3832134)
 * SmartPoC: Validating Smart Contract Vulnerability Findings through PoC Generation and Execution (ASE '26) [pdf](https://arxiv.org/abs/2511.12993)
 * Trace-Driven Automated PoC Synthesis for On-Chain Attacks (ASE '26) [pdf](https://arxiv.org/abs/2601.16681)
-* IntOAgent: A Practical Framework for Automated Detection and Triggering of Integer Overflow Vulnerabilities (ASE '26)
+* IntOAgent: A Practical Framework for Automated Detection and Triggering of Integer Overflow Vulnerabilities (ASE '26) [doi](https://dl.acm.org/doi/10.1145/3832783.3834336)
 * V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution (FSE '26) [pdf](https://arxiv.org/abs/2604.13611)
 * PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts (TOSEM '26) [doi](https://dl.acm.org/doi/10.1145/3816704)
 
@@ -286,7 +286,7 @@ Applications of PoC exploits in vulnerability assessment, exploit prediction, mi
 
 #### PoC-Guided Patch Validation and Repair
 
-* SymRadar: PoC-Centered Bounded Verification for Vulnerability Repair (ICSE '26)
+* SymRadar: PoC-Centered Bounded Verification for Vulnerability Repair (ICSE '26) [doi](https://dl.acm.org/doi/10.1145/3744916.3787825)
 * Do Automated Fixes Truly Mitigate Smart Contract Exploits? (ICSE '26, Journal-first) [pdf](https://arxiv.org/abs/2501.04600)
 
 #### PoC Migration and Transformation
